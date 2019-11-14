@@ -60,8 +60,8 @@ body {
   }
   .pictureOfDay {
     display: flex;
-    background-color: green;
     justify-content: center;
+    align-content: center;
     height: 352px;
   }
   .copyRight {
@@ -97,5 +97,11 @@ body {
     height: 5rem;
     background-color: #673bb4;
     color: white;
+  }
+  .picOverlay {
+    position: fixed;
+    top: 12rem;
+    color: white;
+    font-weight: bold;
   }
 }
