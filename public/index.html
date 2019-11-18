@@ -6,6 +6,8 @@
     <title>Nasa Api</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <script src="https://kit.fontawesome.com/06c27cb8f6.js" crossorigin="anonymous"></script>
+  </head>
   </head>
   <body>
     <nav class="navBar">
@@ -25,12 +27,45 @@
         <img src="" class="nasaPic" />
       </section>
       <section class="copyRight">
-        copyright: Martin Wise | title: Mercury in Silhouette
+       copyright:<span class="author"></span> | title: <span class="picTitle"></span>
       </section>
       <section class="upcomingLaunches">
         <h2>Upcoming SpaceX Launches</h2>
-        <section class="launchInfo"></section>
       </section>
+       <section class="launches">
+        <button class="leftButton"><i class="fas fa-angle-left"></i></button>
+        <section class="launchData">
+          <section class="launchSlide">
+            <section class="vesselName">
+              <h3>
+                <i class="fas fa-space-shuttle"></i
+                ><span class="vessel"></span>
+              </h3>
+            </section>
+            <section class="launchData">
+              <p>
+                <i class="fas fa-info-circle"
+                  ><span class="launchD"></span
+                ></i>
+              </p>
+            </section>
+            <section class="launchTimer">
+              <p>
+                <i class="fas fa-clock"></i>
+                <span class="launchTime"></span>
+              </p>
+            </section>
+            <section class="launchSite">
+              <p>
+                <i class="fas fa-map-marked-alt"></i
+                ><span class="launchS"></span>
+              </p>
+            </section>
+          </section>
+        </section>
+        <button class="rightButton"><i class= "fas fa-angle-right"></i></button>
+      </section>
+     
 
       <section class="missionStatement">
         <h1>Our Mission Statement</h1>
