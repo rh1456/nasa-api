@@ -27,7 +27,6 @@ const titleOfPic = async () => {
   displayTitle(picTitle.title)
 }
 //Worked with Celeste on this portion, it was functioning, tried to go in and re-work it with my own understanding and struggled to get it back up.
-//Interested in getting a JS tutor, feel behind
 
 // const getSpaceXDetails = async () => {
 //   const response = await fetch(launchAPI)
